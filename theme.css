@@ -1,0 +1,110 @@
+:root {
+    --blue1: #5686fe;
+    --blue2: #9ab6fe;
+    --black1: #222;
+    --black2: #333;
+    --black3: #444;
+    --white1: #fff;
+}
+*::-webkit-scrollbar {
+    width: 8px;
+}
+*::-webkit-scrollbar-track {
+    background: var(--black1) !important;
+}
+*::-webkit-scrollbar-thumb {
+    background: var(--black3) !important;
+    border-radius: 4px;
+}
+body {
+    background: var(--black2);
+}
+select,
+.select {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzYgMzYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzU2ODZmZSI+PHBhdGggZD0iTTEzLDNsMTUsMTVMMTMsMzNsLTMtM2wxMi0xMkwxMCw2Ii8+PC9zdmc+) !important;
+}
+/** 新建房间 **/
+.view-room-create-box {
+    color: var(--blue1);
+    background: var(--black2);
+}
+.more-options-box {
+    background: var(--black3) !important;
+}
+.tips-box {
+    background: var(--black3) !important;
+}
+/** 加入房间 **/
+.draw-join-room-box {
+    background: var(--black2) !important;
+}
+.draw-what-bg {
+    color: var(--blue1) !important;
+}
+.current {
+    background: var(--blue1) !important;
+    color: var(--white1) !important;
+    box-shadow: 0 4px 12px -8px var(--blue2) !important;
+}
+
+/** 房间：右侧 **/
+.side-box {
+    color: var(--white1);
+}
+.progress i {
+    background: var(--blue1) !important;
+}
+.index {
+    background: var(--blue1) !important;
+}
+.side-box,
+.draw-member-box {
+    background: var(--black3);
+}
+.message-list,
+.draw-message-box {
+    background: var(--black2);
+}
+.draw-member-item[data-winner] {
+    color: var(--blue2) !important;
+}
+.item {
+    color: var(--white1) !important;
+}
+
+/** 房间：选题 **/
+.ui-select-pop-box {
+    color: var(--blue1);
+    background: var(--black3);
+}
+.option[data-active] {
+    background: var(--blue1) !important;
+}
+
+/** 房间：其他 **/
+.draw-input {
+    color: var(--blue1) !important;
+    border: 2px solid var(--blue1);
+}
+.draw-input::placeholder {
+    color: var(--blue1);
+}
+.message-input {
+    color: var(--blue1);
+}
+.message-input::placeholder {
+    color: var(--blue1);
+}
+button,
+.ui-btn {
+    color: var(--white1) !important;
+    border-color: var(--blue2) !important;
+    background: var(--blue1) !important;
+    box-shadow: 0 0 0 1px var(--blue2);
+}
+.draw-more-info-box {
+    background: var(--black2);
+}
+.draw-options-box {
+    background: var(--white1);
+}
